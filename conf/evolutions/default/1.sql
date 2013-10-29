@@ -15,6 +15,7 @@ create table cms_block (
   template_id               bigint,
   html                      TEXT,
   visible                   boolean,
+  version                   bigint not null,
   master_page               bigint,
   language                  varchar(255),
   title                     varchar(255),
